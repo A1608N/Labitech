@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.countainer {
+	width: 100%;
+	margin: 0 auto;
+	height: 20vh;
+}
+.medsos {
+	display: flex;
+	background-image: url('../img/home.jpeg');
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+}
+.medsos ul {
+	float: right;
+	padding: 25px 20px;
+	background-color: white;
+	color: blue;
+	margin-right: 50px;
+	margin-top: 30px;
+
+}
+.medsos .row .col-4 {
+	display: block;
+    float: left;
+    padding: 15px 95px;
+    font-size: 10px;
+    /* position: absolute; */
+    width: 0%;
+    border: 3px solid;
+    /* bottom: 0; */
+    margin-top: 27%;
+}
+.medsos .row {
+	position: relative;
+	height: 50vh;
+}
