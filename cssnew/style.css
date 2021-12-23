@@ -100,27 +100,30 @@ a {
 	height: 300px;
 	width: 100%;
 }
+.slider{
+	height: 100vh;
+}
 .slide1, .slide2, .slide3 {
 	/*float: left;*/
 	position: absolute;
 	background-size: cover;
-	height: 100%;
-	width: 30%;
+	height: 100vh;
+	width: 100%;
 }
 .slide1 {
-	background-image: url('../imgwebnew/galeri1.jpg') no-repeat center;
+	background: url('../imgwebnew/galeri1.jpeg') no-repeat center;
 	background-size: cover;
 	animation: fade 8s infinite;
 	-webkit-animation: fade 8s infinite;
 }
 .slide2 {
-	background-image: url("imgwebnew/galeri2.jpeg") no-repeat center;
+	background: url("imgwebnew/galeri5.jpeg") no-repeat center;
 	background-size: cover;
 	animation: fade2 8s infinite;
 	-webkit-animation: fade2 8s infinite;
 }
 .slide3 {
-	background: url('galeri3.jpeg') no-repeat center;
+	background: url('imgwebnew/homee.jpeg') no-repeat center;
 	background-size: cover;
 	animation: fade3 8s infinite;
 	-webkit-animation: fade3 8s infinite;
